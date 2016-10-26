@@ -49,13 +49,13 @@ int main()
         return bitset<7>(ch).to_string();
     };
     
-	// Transform each letter to binary string representation
+    // Transform each letter to binary string representation
     vector<string> vec;
     transform(all(MESSAGE), back_inserter(vec), toBinStr);
   
     // Make one string from each letter
     string oneLineOutput = accumulate(all(vec), string(""));
 	
-	// Transform it to unary message
+    // Transform it to unary message
     std::cout<< toUnary(oneLineOutput) << endl; 
 }
