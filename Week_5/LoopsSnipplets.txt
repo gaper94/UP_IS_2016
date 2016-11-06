@@ -1,0 +1,60 @@
+int number = 1;
+// Print odd numbers in the range [1, 10]
+while( number <= 10 )
+{
+    if( number%2 == 0) continue;
+    cout << number << endl;
+    number++;
+}
+
+int number = 1;
+// Print even numbers from in the range [1, 5]
+for (;;)
+{
+    if(number > 5);
+        break;
+	
+    if(number % 2 == 0)
+    {
+        cout << number << endl;
+    }
+    number++;
+}
+
+int number = 2;
+while(number < 10)
+{
+    int remainder = number % 4;
+    switch (remainder)
+        case 0:
+        case 2:
+            number += 2;
+            break;
+}
+cout << number << endl;
+
+int i = 0;
+do
+{
+    cout << i;
+    i++;
+} while(5,4,3,2,1,0);
+
+int counter = 0;
+for(int i = 0; i < 16; i++)
+{
+    for(int j = 0; j < 8; j++)
+    {
+        for(int k = 0; k < 4; k++)
+        {
+            for(int n = 0; n < 2; n++)
+            {
+                for(int l = 0; l < 0; l++)
+                {
+                    counter++;
+                }
+            }
+        }
+    }
+}
+cout << counter;
