@@ -34,9 +34,9 @@
     abs(-23) => 23
     rectanglePerimeter(10, 20) => 60
     circleArea(5) => 78.5
-	pow(2, 5) => 32
-	distance(3, 2, 9, 7) => 7,8102
-	isTriangle(3, 4, 9) => false
+    pow(2, 5) => 32
+    distance(3, 2, 9, 7) => 7,8102
+    isTriangle(3, 4, 9) => false
 
 4. Напишете функция с прототип void toBinary(int), която приема като аргумент цяло число
    и изпечатва в конолата числото в двоична бройна система
