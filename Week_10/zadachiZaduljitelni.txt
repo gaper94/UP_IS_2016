@@ -1,0 +1,68 @@
+1. Напишете функция с прототип size_t stringLength(char*),
+   която намира дължината на подаденият низ
+   
+   Пример:
+   stringLength("C++ rocks") => 9
+   
+2. Напишете функция с прототип size_t wordsCount(char*), която
+   намира броят думи от които е съставен подаденият низ
+   
+   Пример:
+   wordsCount("Das auto") => 2
+   
+3. Напишете функция с прототип bool equalsIgnoreCase(char*, char*),
+   която проверява дали два низа са съставени от един и същ набор от букви.
+   
+   Пример:
+   equalsIgnoreCase("BeAtLes", "beatles") => true
+
+4. Напишете функция с прототип bool evaluate(char*), която намира и изпечатва
+   броят на малки и големи букви и броят на цифрите в даденият низ
+   
+   Пример:
+   evaluate("3 Doors Down") 
+      => Брой малки букви: 7
+         Брой големи букви: 2
+         Брой цифри: 1
+
+5. Напишете функция с прототип bool swapcase(char*), която променя всяка голяма
+   буква на малка и всяка малка на голяма в подаденият низ
+   
+   Пример:
+   swapcase("Yellow Submarine") => yELLOW sUBMARINE
+
+6. Напишете функция с прототип void findWords(char*), която намира
+   най-дългата и най-късата дума от даденият низ. Ако има две или
+   повече думи с еднаква дължина, които са най-къси или най-дълги,
+   да се изпечата последната намерена дума   
+   
+   Пример:
+   findWords("yesterday love was such an easy game to play")
+      => Най-дълга дума: yesterday
+         Най-къса дума: to
+
+7. Напишете функция с прототип void replace(char* src, char from, char to), която
+   подменя всяко срещане на символа from със символът to
+   
+   Пример:
+   replace("We_love_C  ", ' ', '+') => "We_love_C++"
+   
+8. Напишете функция с прототип void truncate(char* src, int n), която скъсява
+   подаденият низ до низ с дължина n. Ако низът вече е по-къс от n, той
+   не трябва да се модифицира
+   
+   Пример:
+   truncate("The Dark Knight Rises", 15 ) => The Dark Knight
+   
+9. Напишете функция с прототип void deleteChar(char* a, char c), която изтрива
+   всяко срещане символа 'c' в даденият низ
+   
+   Пример:
+   deleteChar("the* qu*ick* bro*wn ***fox **jumped o**ver **the lazy *d*og", '*')
+      => "the quick brown fox jumped over the lazy dog"
+
+10. Напишете функция с прототип bool startsWith(char* src, char* start), която връща
+    стойност true когато src започва с start, в противен случай връща стойност false
+
+	Пример:
+	startsWith("Fear of the Dark", "Fea") => true
